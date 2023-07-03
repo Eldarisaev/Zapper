@@ -1,0 +1,628 @@
+.container {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 10% 1fr;
+  height: 100vh;
+  grid-template-areas:
+    'header header'
+    'aside content';
+}
+.container > div {
+  border: none;
+}
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 21% 3fr 1fr;
+  align-items: center;
+}
+.userBlock {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header > div {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+.aside {
+  grid-area: aside;
+  padding: 1rem 2rem;
+}
+.content {
+  grid-area: content;
+  padding: 2rem;
+  background-color: #F8F9FB;
+}
+.logoBlock {
+  display: flex;
+  gap: 215px;
+}
+.content {
+  grid-area: content;
+  padding: 2rem;
+  background-color: #f8f9fb;
+}
+.titleBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleBlock h1 {
+  margin: 0;
+}
+.titleBlock button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #724bf2;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  padding: 0.6rem 2rem;
+}
+.contentContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 2fr 1fr;
+  height: 80vh;
+  gap: 20px;
+  grid-template-areas:
+    'worth worth worth worth worth worth income income income expenses expenses expenses'
+    'portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio assets assets assets assets'
+    'transactions transactions transactions transactions transactions transactions transactions transactions assets assets assets assets';
+}
+.contentContainer > div {
+  border: none;
+}
+.worth {
+  grid-area: worth;
+  display: flex;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.income {
+  display: flex;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.income > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.income > div p {
+  display: flex;
+  text-align: right;
+  color: rgb(2, 197, 2);
+}
+.expenses {
+  display: flex;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.expenses > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.expenses > div p {
+  display: flex;
+  text-align: right;
+  color: #EB3B5A;
+}
+.worth1 {
+  display: flex;
+  justify-content: right;
+  
+}
+.container > div {
+  border: none;
+}
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 21% 3fr 1fr;
+  align-items: center;
+}
+.exchange {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.left_content {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+.left_content h1 {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #2C384F;
+margin: 0;
+}
+.left_content p {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #899BBE;
+margin: 0;
+}
+.left_content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.right_content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.right_content p {
+  text-align: right;
+}
+.right_content > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #2C384F;
+  margin: 0;
+}
+.right_content > div {
+display: flex;
+align-items: center;
+gap: 3px;
+}
+.right_content > div p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: rgb(2, 197, 2);
+  margin: 0;
+}
+.button {
+display: flex;
+align-items: center;
+Width: 285px;
+Height: 38px;
+Top: 924px;
+Left: 1086px;
+Radius: 12px;
+}
+.userBlock {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header > div {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+.aside {
+  grid-area: aside;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.content {
+  grid-area: content;
+  padding: 2rem;
+  background-color: #F8F9FB;
+}
+.logoBlock {
+  display: flex;
+  gap: 215px;
+}
+.content {
+  grid-area: content;
+  padding: 2rem;
+  background-color: #f8f9fb;
+}
+.titleBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleBlock h1 {
+  margin: 0;
+}
+.titleBlock button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #724bf2;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  padding: 0.6rem 2rem;
+}
+.contentContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 2fr 1fr;
+  height: 80vh;
+  gap: 20px;
+  grid-template-areas:
+    'worth worth worth worth worth worth income income income expenses expenses expenses'
+    'portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio assets assets assets assets'
+    'transactions transactions transactions transactions transactions transactions transactions transactions assets assets assets assets';
+}
+.contentContainer > div {
+  border: none;
+}
+.worth {
+  grid-area: worth;
+  display: flex;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.income {
+  grid-area: income;
+  display: grid;
+}
+.expenses {
+  grid-area: expenses;
+  display: grid;
+}
+.portfolio {
+  grid-area: portfolio;
+}
+.assets {
+  grid-area: assets;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 26px 30px;
+}
+.assets_header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.assets_header h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C384F;
+}
+.buttonViewAll {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.transactions {
+  grid-area: transactions;
+}
+.transactions {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.transactionsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.transactionsHeader div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.transactionsHeader div:first-child > div {
+  background: #724BF2;
+  border-radius: 6px;
+  padding: 10px;
+}
+.tUsers {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  /* grid-auto-rows: 100px; */
+  align-items: center;
+  padding-top: 20px;
+  
+}
+.tAvatar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.tName {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+.tBalance {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.tBalance button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7ccf6;
+  width: 146px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+}
+.tDate {
+  grid-column-start: 9;
+  grid-column-end: 11;
+}
+.tEdit {
+  grid-column-start: 12;
+  grid-column-end: 13;
+}
+.tDelete {
+  grid-column-start: 13;
+  grid-column-end: 13;
+}
+.tUsersBottom {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 100px;
+  align-items: center;
+}
+
+.tAvatar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.tName {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.tBalance {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.tDate {
+  grid-column-start: 9;
+  grid-column-end: 11;
+}
+
+.tEdit {
+  grid-column-start: 12;
+  grid-column-end: 13;
+}
+
+.tDelete {
+  grid-column-start: 13;
+  grid-column-end: 13;
+}
+.aEthereum {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #784FFE;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  color: white;
+  -webkit-box-shadow: 3px 10px 9px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 3px 10px 9px 2px rgba(34, 60, 80, 0.2);
+  -box-shadow: 3px 10px 9px 2px rgba(34, 60, 80, 0.2);
+  margin-bottom: 20px;
+}
+.aDashboard {
+  height: 35px;
+  margin-top: 30px;
+  border-radius: 6px;
+  background-color: rgb(119, 77, 254, 0.2)
+}
+.aDashboard span {
+  color: #784FFE;
+}
+.aItem {
+display: flex;
+gap: 10px;
+align-items: center;
+padding: 0.5rem 2rem;
+margin-bottom: 20px;
+}
+.logout {
+  color: #EB3B5A;
+  position: absolute;
+  bottom: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.worthLeftBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.worthLeftBlock p,h1 {
+    margin: 0;
+}
+.worthLeftBlock div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.expenses {
+  grid-area: expenses;
+}
+.portfolio {
+  grid-area: portfolio;
+}
+.assets {
+  grid-area: assets;
+}
+.transactions {
+  grid-area: transactions;
+}
+.worthLeftBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.worthLeftBlock p,h1 {
+    margin: 0;
+}
+.worthLeftBlock div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.portfolio {
+  grid-area: portfolio;
+  display: grid;
+  background-color: white;
+  padding: 2rem;
+  grid-gap: 10px;
+  border-radius: 10px;
+  grid-template-columns: 10% 1fr;
+  grid-template-areas: 
+  'headerPortfolio headerPortfolio'
+  'headerPrice headerGraph';
+}
+.headerPortfolio {
+  grid-area: headerPortfolio;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerPortfolioLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerPortfolioLeft div:first-child {
+background: #724BF2;
+border-radius: 6px;
+padding: 10px;
+}
+.headerPortfolioLeft h1 {
+  margin: 0;
+}
+.headerPrice {
+  grid-area: headerPrice;
+}
+.headerGraph {
+  grid-area: headerGraph;
+}
+.headerPrice {
+  grid-area: headerPrice;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.headerPrice > div {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #899BBE;
+  position: relative;
+}
+.headerPrice div::after {
+  position: absolute;
+  bottom: 3px;
+  content: '............................................................................';
+  letter-spacing: 5px;
+}
+.headerGraph {
+  grid-area: headerGraph;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+.headerGraph > div {
+  width: 36px;
+  background-color: #724BF2;
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+}
+.headerGraph div::after{
+  position: absolute;
+  bottom: -24px;
+  left: 6px;
+  color: #899BBE;
+}
+.jan {
+  height: 43px;
+}
+.jan:after {
+  content: 'jan';
+}
+.feb {
+  height: 77px;
+}
+.feb::after{
+  content: 'feb';
+}
+.mar {
+  height: 129px;
+}
+.mar::after{
+  content: 'mar';
+}
+.apr {
+  height: 86px;
+}
+.apr::after{
+  content: 'apr';
+}
+.may {
+  height: 43px;
+}
+.may::after{
+  content: 'may';
+}
+.jun {
+  height: 64px;
+}
+.jun::after{
+  content: 'jun';
+}
+.jul {
+  height: 86px;
+}
+.jul::after{
+  content: 'jul';
+}
+.aug {
+  height: 113px;
+}
+.aug::after{
+  content: 'aug';
+}
+.sep {
+  height: 104px;
+}
+.sep::after{
+  content: 'sep';
+}
+.oct {
+  height: 57px;
+}
+.oct::after{
+  content: 'oct';
+}
